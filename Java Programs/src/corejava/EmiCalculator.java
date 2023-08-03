@@ -1,7 +1,7 @@
-/* Program is about for EMI calculator */
 package corejava;
 
 import java.util.*;
+/* Program is about for EMI calculator */
 class Calculation {
 	double emicalculation;
 //	EMI formula using interest formula	
