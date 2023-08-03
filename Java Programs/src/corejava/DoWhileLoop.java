@@ -6,7 +6,6 @@ public class DoWhileLoop {
 	
 	public static void main(String args[]) {
 		int number = 1;
-
 //		First print number than increment and after it is check condition
 		do {
 			System.out.println(number);
