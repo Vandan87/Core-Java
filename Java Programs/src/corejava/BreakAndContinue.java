@@ -1,7 +1,5 @@
 package corejava;
-
 /* Program's aim is how to use of break and continue statement */
-
 public class BreakAndContinue {
 
 	public static void main(String args[]) {
