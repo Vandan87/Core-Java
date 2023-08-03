@@ -1,5 +1,5 @@
-/* Demonstrate the difference between equals() or == operator*/
 package corejava;
+/* Demonstrate the difference between equals() or == operator*/
 public class Equals {
 	
 	public static void main(String args[]) {
