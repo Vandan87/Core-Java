@@ -1,7 +1,7 @@
-/* Program's aim is to print star pattern to given number from user */
 package corejava;
 
 import java.util.*;
+/* Program's aim is to print star pattern to given number from user */
 public class ForLoop {
 	
 	public static void main(String args[]) {
