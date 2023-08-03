@@ -1,7 +1,5 @@
 package corejava;
-
 /* Java program to demonstrate use of constructor */
-
 class Triangle {
 	double width;
 	double height;
