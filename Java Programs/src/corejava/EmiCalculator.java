@@ -1,6 +1,5 @@
-package corejava;
-
 /* Program is about for EMI calculator */
+package corejava;
 
 import java.util.*;
 class Calculation {
