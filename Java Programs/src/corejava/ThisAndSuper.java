@@ -29,7 +29,7 @@ class ThisAndSuper {
 	
 	public static void main(String[] args) {
 		Product productDetails = new Product();
-		productDetails.setdata("KeyBoard",250f,"Computer Parts"); // set data manually 
+		productDetails.setdata("Monitor",25000f,"Computer Parts"); // set data manually 
 		productDetails.showdata(); // calling method of product class
 	}
 	
