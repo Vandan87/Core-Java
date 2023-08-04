@@ -3,13 +3,13 @@ package corejava;
 public class Equals {
 	
 	public static void main(String args[]) {
-		String word1 = "Hello";
-		String word2 = "Hello";
-		String word3 = new String("Hello");
-		System.out.println("Using == operator String : " + (word1 == word2)); // same reference
-		System.out.println("Using == operator String : " + (word1 == word3)); // different reference
-		System.out.println("Using equals() method String : " + word1.equals(word2)); // same content
-		System.out.println("Using equals() method String : " + word1.equals(word3)); // different content
+		String message1 = "Hello";
+		String message2 = "Hello";
+		String message3 = new String("Hello");
+		System.out.println("Using == operator String : " + (message1 == message2)); // same reference
+		System.out.println("Using == operator String : " + (message1 == message3)); // different reference
+		System.out.println("Using equals() method String : " + message1.equals(message2)); // same content
+		System.out.println("Using equals() method String : " + message1.equals(message3)); // different content
 		int number1 = 45;
 		int number2 = 45;
 		System.out.println("Using == operator Integer : " + (number1 == number2)); // same reference
