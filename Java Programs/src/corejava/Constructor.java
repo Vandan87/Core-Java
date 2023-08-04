@@ -24,12 +24,12 @@ class Triangle {
 public class Constructor {
 	
 	public static void main(String args[]) {
-		Triangle defaultconstructor = new Triangle();
+		Triangle defaultConstructor = new Triangle();
 		double result;
-		result = defaultconstructor.volume();
+		result = defaultConstructor.volume();
 		System.out.println("Volume is : " + result);
-		Triangle parameterconstructor = new Triangle(7, 8, 9);
-		result = parameterconstructor.volume();
+		Triangle parameterConstructor = new Triangle(7, 8, 9);
+		result = parameterConstructor.volume();
 		System.out.println("Volume is : " + result);
 	}
 
