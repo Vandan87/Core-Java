@@ -30,13 +30,8 @@ public class StringMethods {
 		System.out.println(message1.equals(message2)); // false
 		System.out.println(message3.equals(message5)); // true
 		String companyName = " QDev ";
-<<<<<<< HEAD
 		System.out.println(companyName); // (space)QDev
 		System.out.println(companyName.trim()); // QDev
-=======
-		System.out.println(companyName7); // (space)QDev
-		System.out.println(companyName7.trim()); // QDev
->>>>>>> origin/main
 		int number = 10;
 		String result = String.valueOf(number);
 		System.out.println(result + 11); // 1011
