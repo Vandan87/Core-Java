@@ -50,7 +50,7 @@ public class SwitchCase {
 			System.out.println("Number not valid");
 			break;
 		}
-		input.close();
+		scanner.close();
 	}
 
 }
