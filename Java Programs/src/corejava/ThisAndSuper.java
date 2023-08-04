@@ -28,9 +28,9 @@ class Product extends ProductCategory {
 class ThisAndSuper {
 	
 	public static void main(String[] args) {
-		Product object = new Product();
-		object.setdata("KeyBoard",250f,"Computer Parts"); // set data manually 
-		object.showdata(); // calling method of product class
+		Product productDetails = new Product();
+		productDetails.setdata("KeyBoard",250f,"Computer Parts"); // set data manually 
+		productDetails.showdata(); // calling method of product class
 	}
 	
 }
