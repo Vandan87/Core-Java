@@ -12,8 +12,8 @@ public class WrapperClass {
 		Float value6 = 1.78f;
 		Character value7 = 'V';
 		Character value8 = 'V';
-		String value9 = "Vandan";
-		String value10 = "Vandan";
+		String name1 = "Vandan";
+		String name2 = "Vandan";
 		Boolean value11 = true;
 		Boolean value12 = true;
 //		Compare the value using equals() method
@@ -21,7 +21,7 @@ public class WrapperClass {
 		System.out.println("Double : " + value3.equals(value4));
 		System.out.println("Float : " + value5.equals(value6));
 		System.out.println("Character : " + value7.equals(value8));
-		System.out.println("String : " + value9.equals(value10));
+		System.out.println("String : " + name1.equals(name2));
 		System.out.println("Boolean : " + value11.equals(value12));
 	}
 
