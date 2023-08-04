@@ -3,7 +3,6 @@ package corejava;
 public class BreakAndContinue {
 
 	public static void main(String args[]) {
-
 		for (int number = 1; number <= 10; number++) {
 //			Check condition and when condition is true than loop is stop with this number
 			if (number == 8) {

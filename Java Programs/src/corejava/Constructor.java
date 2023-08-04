@@ -1,9 +1,15 @@
 package corejava;
 /* Java program to demonstrate use of constructor */
 class Triangle {
+<<<<<<< HEAD
 		double width;
 		double height;
 		double depth;
+=======
+	double width;
+	double height;
+	double depth;
+>>>>>>> origin/main
 	Triangle() {
 		System.out.println("Constructor without parameter");
 		width = 10;
