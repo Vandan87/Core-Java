@@ -10,6 +10,7 @@ class ProductCategory {
 		System.out.println("Product Category Name : " + categoryname);
 	}
 }
+
 class Product extends ProductCategory {
 	private String name;
 	private float price;
@@ -25,6 +26,7 @@ class Product extends ProductCategory {
 		super.showdata(); // show data of parent class
 	}
 }
+
 class ThisAndSuper {
 	
 	public static void main(String[] args) {

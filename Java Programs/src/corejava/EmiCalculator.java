@@ -9,6 +9,7 @@ class Calculation {
 		emicalculation = (principle * rate * Math.pow(1 + rate , time) / (Math.pow(1 + rate , time) - 1));
 	}
 }
+
 public class EmiCalculator {
 
 	public static void main(String args[]) {
