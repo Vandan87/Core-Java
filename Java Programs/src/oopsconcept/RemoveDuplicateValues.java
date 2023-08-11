@@ -19,10 +19,9 @@ public class RemoveDuplicateValues {
 		System.out.println("Alphabet : " + alphabet);
 		System.out.println("List with removed duplicate alphabets : " + uniqueList);
 	}
-
 	public static List<String> removeDuplicates(List<String> list) {
 		HashSet<String> hashSet = new HashSet<>(list);
 		return new ArrayList<>(hashSet);
 	}
-
+	
 }

@@ -3,6 +3,7 @@ package oopsconcept;
 interface Bank {
 	float rateOfInterest(); // Abstract method to be implemented by classes that implement this interface
 }
+
 class SBI implements Bank {
 	public float rateOfInterest() {
 		return 9.15f;
