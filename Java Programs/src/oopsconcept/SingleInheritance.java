@@ -27,6 +27,7 @@ class PersonalDetails {
 		System.out.println("City : " + city);
 	}
 }
+
 // StudentDetails inheriting from PersonalDetails
 class StudentDetails extends PersonalDetails {
 	private int standard, enrollmentNumber;

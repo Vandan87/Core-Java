@@ -5,12 +5,14 @@ class Cricket {
 		System.out.println("Cricket Match");
 	}
 }
+
 // Test Match class inheriting from Crickt
 class TestMatch extends Cricket {
 	void matchType() {
 		System.out.println("Unlimited Overs Called Test Match");
 	}
 }
+
 // Odi Match class inheriting from Cricket
 class OdiMatch extends Cricket {
 	void matchType() {

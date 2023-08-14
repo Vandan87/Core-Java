@@ -79,16 +79,20 @@ public class ComparableAndComparator {
 		System.out.println(mobileList);
 // 		With Comparable
 		Collections.sort(mobileList);
+		System.out.println();
 		System.out.println("Sorted using Comparable");
 		System.out.println(mobileList);
 //		With Comparator
+		System.out.println();
 		System.out.println("Sorted using Comparator");
 		Collections.sort(mobileList, new IdendityComparator());
 		System.out.println("Sorted by ID");
 		System.out.println(mobileList);
+		System.out.println();
 		Collections.sort(mobileList, new NameComparator());
 		System.out.println("Sorted by Name");
 		System.out.println(mobileList);
+		System.out.println();
 		Collections.sort(mobileList, new QuantityComparator());
 		System.out.println("Sorted by Quantity");
 		System.out.println(mobileList);

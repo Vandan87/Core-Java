@@ -20,6 +20,7 @@ class BioData {
 		System.out.println("Age : " + age);
 	}
 }
+
 // EmployeeDetails inheriting from BioData
 class EmployeeDetails extends BioData {
 	private String companyName;
@@ -38,6 +39,7 @@ class EmployeeDetails extends BioData {
 		System.out.println("Salary : " + salary);
 	}
 }
+
 // DeveloperData inheriting from EmployeeDetails
 class DeveloperData extends EmployeeDetails {
 	private String language;

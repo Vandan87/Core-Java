@@ -5,18 +5,21 @@ class Animal {
 		System.out.println("Animal is eating");
 	}
 }
+
 // Dog class inheriting from Animal class
 class Dog extends Animal {
 	void bark() {
 		System.out.println("Dog is barking");
 	}
 }
+
 // Cat class inheriting from Animal
 class Cat extends Animal {
 	void meow() {
 		System.out.println("Cat is meowing");
 	}
 }
+
 // Pet class inheriting from Dog
 class Pet extends Dog {
 	void play() {
@@ -28,9 +31,11 @@ public class HybridInheritance {
 
 	public static void main(String args[]) {
 		Pet pet = new Pet();
+		Cat cat = new Cat();
 		pet.eat();
 		pet.bark();
 		pet.play();
+		cat.meow();
 	}
 
 }
