@@ -66,7 +66,7 @@ class QuantityComparator implements Comparator<Mobile> {
 	}
 }
 
-public class ComparableAndComparator {
+class ComparableAndComparator {
 	
 	public static void main(String args[]) {
 		Mobile nokia = new Mobile(105, "nokia", 5);
